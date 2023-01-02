@@ -1,0 +1,369 @@
+html{
+  width: 100%;
+    
+}
+
+
+body{
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #c76c60 0%, #ca415d 55%, #a13e50 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.125rem;
+    
+   
+
+
+}
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+   
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+ 
+   
+   
+}
+
+
+
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}   
+
+.main2{
+    min-height: 200px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+   
+   
+   
+    
+
+}
+
+.herobox1{
+   flex: 2;
+   padding-right: 100px;
+
+  
+
+}
+
+.herobox2{
+    flex: 1;
+    
+    
+    
+
+}
+.herobox2 img{
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px rgb(136, 51, 65);
+}
+
+.cards{
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+    
+    
+    
+}
+
+
+
+
+
+.card1{
+    background-image: url(img/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px rgb(136, 51, 65);
+    transition: 1s;
+
+    
+
+}
+
+.card1:hover{
+    transform: scale(1.3);
+    rotate: 75deg;
+  
+    
+}
+
+
+
+.card2{
+    background-image: url(img/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+   min-height: 250px;
+   width: 30%;
+   border-radius: 10px;
+   box-shadow: 5px 4px 5px rgb(136, 51, 65);
+   transition: 1s;
+
+}
+.card2:hover{
+    transform: scale(1.3);
+    rotate: 75deg;
+}
+
+
+
+
+.card3{
+    background-image: url(img/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 205px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px rgb(136, 51, 65);
+    transition: 1s;
+
+}
+.card3:hover{
+    transform: scale(1.3);
+    rotate: 75deg;
+}
+
+
+
+
+h1{
+    font-size: 3.25rem;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0px 2px 2px;
+    
+}
+
+h2{ 
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+p{
+    line-height: 1.5rem;
+    margin-bottom: .4rem;
+    
+}
+
+.cards p{
+
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 10px 30px 20px 30px;
+   
+}
+
+i{
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.cards a{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+   
+}
+
+a.mybutton{
+    border-radius: 5px;
+}
+
+.mybutton{
+    background-color: white;
+    color: #e95570;
+    padding:7px 11px 10px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 5px 4px 5px rgb(136, 51, 65);
+    padding:10px 20px ;
+    
+    
+ 
+}   
+ 
+
+a.mybutton:hover{
+              background-color: #f8c0c948;
+              transition-duration: 1s;
+
+}
+
+
+.navbutton{
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 25px ;
+    margin-left: 60px;
+    font-family:  'Roboto', sans-serif;
+    display: inline-block;
+    transition: 1s;
+    text-align: center;
+}
+
+.navbutton:hover{
+    transform: scale(1.2);
+}
+
+
+.testimonials{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+
+.tbox{
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+.tbox p:last-child{
+      font-size: 0.8rem;
+      padding-left: 30px;
+}
+
+
+
+.login-box {
+    
+    padding: 40px;
+    min-width: 500px;
+    max-width: 700px;
+    border-radius: 7px;
+    
+    margin-bottom: 30px;
+  }
+  .login-box .title {
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 0;
+  }
+  .login-box .input-box {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  .login-box .input-box .input {
+    border: none;
+    border-bottom: 1px solid #efefef;
+    background-color: #ececec;
+    outline: none;
+    width: 100%;
+    padding: 14px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  }
+  .login-box .input-box label {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    padding: 14px 5px;
+    display: block;
+    pointer-events: none;
+    transition: 0.2s;
+  }
+  .login-box .input-box input:focus ~ label,
+  .login-box .input-box input:valid ~ label {
+    top: -20px;
+    left: 2px;
+    font-size: 14px;
+    
+  }
+  .login-box .input-box .view-pass {
+    width: 45px;
+    position: absolute;
+    top: 27px;
+    right: 2px;
+    cursor: pointer;
+    background-color: rgba(236, 236, 236, 0.8);
+    padding: 7px 12px;
+    backdrop-filter: blur(3px);
+    display: none;
+  }
+  .login-box button[type="submit"] {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 15px 0;
+    font-size: 16px;
+    color: white ;
+    background-color: #FF9A8B;
+    margin-top: 30px;
+    
+   
+     
+    
+  }
+  .login-box .auth-action {
+    display: flex;
+    justify-content: space-between;
+  }
+  .login-box .auth-action a {
+    display: inline-block;
+    padding: 15px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+
+
+
+
+
+
+  
+
+
+
+ 
+
+
+
+
+
+
